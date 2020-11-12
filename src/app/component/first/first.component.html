@@ -1,0 +1,30 @@
+
+<div class="userLogin-image">
+    <div class="userLogin-text">
+      <h2 style="font-size:50px">MLab CodeTribe</h2>
+      <hr>
+      <p>Mobile Application Development</p>
+
+      <div class="container">
+
+      <form  [formGroup] = "loginForm" (ngSubmit) = "submitMethod(loginForm)">
+        <h1 class="text-center">Sign in</h1>
+        <p><label> Username: </label>
+            <input placeholder="Username"  formControlName = 'username'>
+        </p>
+        <p>
+            <label class = "text-center">  Password:</label>
+            <input placeholder="Password" formControlName = 'password'>
+        <br>
+        <p><button type="submit">Submit</button></p>
+        </form>
+  </div>
+    </div>
+  </div>
+
+
+
+  <!--
+
+    
+  -->
