@@ -1,12 +1,9 @@
 
-
-
 <div class="flex-container">
   <mat-card  *ngFor = "let product of items;">
     <mat-card-content>
      <b> {{ product.item }}: {{ product.name }}</b><b style="float: right;" color = "primary">{{  product.price | currency}}</b>
      <hr>
-     
       <mat-card>
         <img class = "pic" style="box-sizing: content-box; " mat-card-image  [src] = "product.image"
         alt ="A picture of {{product.name}}"/> 

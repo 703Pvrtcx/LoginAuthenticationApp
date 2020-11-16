@@ -35,7 +35,7 @@ import { AboutComponent } from './component/about/about.component';
 //------------Login Components----------------------------------------
 import { SignInComponent } from './component/sign-in/sign-in.component';
 import { SignUpComponent } from './component/sign-up/sign-up.component';
-import { DashboardComponent } from './component/dashboard/dashboard.component';
+
 import { ForgetPasswordComponent } from './component/forget-password/forget-password.component';
 import { VerifyEmailComponent } from './component/verify-email/verify-email.component';
 
@@ -71,8 +71,8 @@ const firebaseConfig = {
     SignInComponent,
     SignUpComponent,
     ForgetPasswordComponent,
-    VerifyEmailComponent,
-    DashboardComponent,
+    VerifyEmailComponent
+
   ],
   imports: [
     BrowserModule,

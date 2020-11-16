@@ -17,7 +17,7 @@ export class ClothingService {
   }
   deleteClothing(key){
     this.afs.collection('Items').doc(key).delete().then(() => {
-      alert(key.value.name + ' Successfully Deleted Clothing!');
+      alert(' Successfully Deleted Clothing!');
     }).catch(err => {
       alert(err.message + ' '+ ' Unable to delete clothing')
     });

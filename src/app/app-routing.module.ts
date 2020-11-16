@@ -12,7 +12,7 @@ import { LoginComponent } from './component/login/login.component';
 
 import { SignInComponent } from './component/sign-in/sign-in.component';
 import { SignUpComponent } from './component/sign-up/sign-up.component';
-import { DashboardComponent } from './component/dashboard/dashboard.component';
+
 import { ForgetPasswordComponent } from './component/forget-password/forget-password.component';
 import { VerifyEmailComponent } from './component/verify-email/verify-email.component';
 
@@ -33,7 +33,6 @@ const routes: Routes = [
   { path: '', redirectTo: 'sign-in', pathMatch: 'full' },
   { path: 'sign-in', component: SignInComponent },
   { path: 'register-user', component: SignUpComponent },
-  { path: 'dashboard', component: DashboardComponent },
   { path: 'forgot-password', component: ForgetPasswordComponent },
   { path: 'verify-email-address', component: VerifyEmailComponent }
 ];
